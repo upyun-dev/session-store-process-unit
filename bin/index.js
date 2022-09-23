@@ -50,6 +50,7 @@ class SissionStoreUnit {
     });
   
     await new Promise((resolve, reject) => {
+      // touch() 函数会将 session 最后访问时间更新为当前时间 
       session.touch().save((err, success) => {
         if (err) {
           return reject(err);
