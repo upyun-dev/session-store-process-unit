@@ -1,0 +1,21 @@
+{
+  "name": "session-store-unit",
+  "version": "1.0.1",
+  "description": "redis sessionId sessionStore",
+  "main": "bin/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "bin": {
+    "session-store-unit": "bin/index.js"
+  },
+  "keywords": []
+}
