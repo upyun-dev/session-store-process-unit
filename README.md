@@ -8,14 +8,11 @@
 - 示例
 
 ```js
+// 创建的 sessionUnit 其内包含 2 个函数
 const sessionStore = require('session-store-unit');
 
-// 新建对象 传入上下文中 sessionStore 对象
-// 创建的 sessionUnit 包含 2 个函数
-const sessionUnit = new sessionStore(req.sessionStore);
-
 // 函数一 通过 ssessionId 获取指定的 session 数据
-const sessionInfo = await sessionUnit.getSessionData(sid);
+const sessionInfo = await sessionUnit.getSessionData(req.sessionStore, sid);
 
 // 函数二 通过 ssessionId 和 pamars 对象 修改指定的 session 数据
 /**
@@ -24,7 +21,5 @@ const sessionInfo = await sessionUnit.getSessionData(sid);
  * }
  * 多层嵌套对象 可直接使用 'key1.key2.key3': value 修改
  */
-await sessionUnit.setSessionData(sid, parmas);
-
-
+await sessionUnit.setSessionData(req.sessionStore, sid, parmas);
 ```
