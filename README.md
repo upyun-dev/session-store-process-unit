@@ -2,8 +2,8 @@
 - 该工具用途 通过 sid(session id) 操作 session-store 中的session数据
 
 - 引用方式, 可选
-    - 使用 npm install session-store-unit --save
-    - 使用 package.json 写入 "session-store-unit": "github:upyun-dev/session-store-unit#v1.0.1",
+    - 使用 npm install session-store-process-unit --save
+    - 使用 package.json 写入 "session-store-unit": "github:upyun-dev/session-store-process-unit#v1.0.3",
 
 - 示例
 

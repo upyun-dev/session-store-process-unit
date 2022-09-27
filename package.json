@@ -1,5 +1,5 @@
 {
-  "name": "session-store-unit",
+  "name": "session-store-process-unit",
   "version": "1.0.2",
   "description": "redis sessionId sessionStore",
   "main": "bin/index.js",
