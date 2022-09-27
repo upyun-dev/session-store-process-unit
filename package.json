@@ -1,6 +1,6 @@
 {
   "name": "session-store-unit",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "redis sessionId sessionStore",
   "main": "bin/index.js",
   "directories": {
