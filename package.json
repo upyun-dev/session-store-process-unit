@@ -15,7 +15,7 @@
     "lodash": "^4.17.21"
   },
   "bin": {
-    "session-store-unit": "bin/index.js"
+    "session-store-process-unit": "bin/index.js"
   },
   "keywords": []
 }

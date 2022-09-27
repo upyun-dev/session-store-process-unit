@@ -3,8 +3,8 @@ const _ = require("lodash");
 module.exports = {
   /**
    * 根据 session id 获取 session信息
-   * @param {Object} [sessionStore]  session store
-   * @param {String} [sessionId]  session id
+   * @param {Object} sessionStore  session store
+   * @param {String} sessionId  session id
    * @returns {Promise<Object|Null>} session 存储的数据
    */
    getSessionData: async (sessionStore, sessionId) => {
@@ -23,8 +23,8 @@ module.exports = {
 
   /**
    * 根据 session id 修改 session信息
-   * @param {Object} [sessionStore]  session store
-   * @param {String} [sessionId]  session id
+   * @param {Object} sessionStore  session store
+   * @param {String} sessionId  session id
    * @param {String} [setParams]  需要修改的 参数对象
    * 
    */
